@@ -18,4 +18,4 @@ def hanoi(n, start, mid, final):
         hanoi(n-1, mid, start, final)
 N = int(input('Enter the number of Disk:'))
 hanoi(N,'A','B','C')
-print(f"THE NUMBER OF MOVES : {count},{count2}"'\n')
+print(f"THE NUMBER OF MOVES : {count}"'\n')
